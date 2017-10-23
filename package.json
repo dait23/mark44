@@ -1,0 +1,48 @@
+{
+	"name": "emma",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"accounting-js": "^1.1.1",
+		"graphql-fetch": "^1.0.1",
+		"hoist-non-react-statics": "^2.3.1",
+		"lodash": "^4.17.4",
+		"mobile-center": "^0.10.0",
+		"mobile-center-analytics": "^0.10.0",
+		"mobile-center-crashes": "^0.10.0",
+		"moment": "^2.19.1",
+		"moment-timezone": "^0.5.13",
+		"prop-types": "^15.6.0",
+		"react": "^16.0.0-beta.5",
+		"react-apollo": "^1.4.16",
+		"react-moment": "^0.6.5",
+		"react-native": "^0.49.3",
+		"react-native-communications": "^2.2.1",
+		"react-native-google-analytics-bridge": "^5.3.3",
+		"react-native-keyboard-spacer": "^0.4.1",
+		"react-native-linear-gradient": "^2.3.0",
+		"react-native-onesignal": "^3.0.6",
+		"react-native-progress-bar": "^0.1.2",
+		"react-native-splash-screen": "^3.0.1",
+		"react-native-svg": "^5.4.2",
+		"react-native-switch-pro": "^0.4.6",
+		"react-native-ui-kitten": "^2.0.1",
+		"react-native-vector-icons": "^4.4.2",
+		"react-navigation": "^1.0.0-beta.15",
+		"realm": "^2.0.0",
+		"victory-native": "^0.15.0"
+	},
+	"devDependencies": {
+		"babel-jest": "21.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "21.2.1",
+		"react-test-renderer": "16.0.0-beta.5"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
